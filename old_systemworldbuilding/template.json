@@ -1,0 +1,75 @@
+{
+"Actor": {
+  "types": ["character"],
+  "character": {
+    "biography": "",
+    "health": {
+      "value": 25,
+      "min": 0,
+      "max": 25
+    },
+    "mana": {
+      "value": 10,
+      "min": 0,
+      "max": 10
+    },
+    "endurance": {
+      "value": 10,
+      "min": 0,
+      "max": 10
+    },
+    "attributes": {
+      "strength": {
+        "value": 10,
+        "label": "Stärke",
+        "modifier": []
+      },
+      "dexterity": {
+        "value": 10,
+        "label": "Jagdgeschick",
+        "modifier": []
+      },
+      "knowledge": {
+        "value": 10,
+        "label": "Altes Wissen",
+        "modifier": []
+      },
+      "smithing": {
+        "value": 1,
+        "label": "Schmiedekunst",
+        "modifier": []
+      },
+      "alchemy": {
+        "value": 1,
+        "label": "Alchemie",
+        "modifier": []
+      },
+      "thieving": {
+        "value": 1,
+        "label": "Diebeskunst",
+        "modifier": []
+      }
+    },
+    "protection": {
+      "blades": {
+        "label": "...gegen Klingen",
+        "value": 0
+      }
+    },
+    "skills": {
+      
+    },
+    "groups": {}
+  }
+},
+"Item": {
+  "types": ["item"],
+  "item": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "attributes": {},
+    "groups": {}
+  }
+}
+}
